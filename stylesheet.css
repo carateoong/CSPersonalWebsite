@@ -62,3 +62,30 @@ body {
     border: solid white 1px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-header {
+    font-size: clamp(100px, 10vh, 150px);
+}
+
+.project-item-container {
+    border-radius: 25px;
+    padding: 10px;
+    border: solid white 1px;
+    width: 75%;
+}
+
+.project-title {
+    font-size: clamp(30px, 10vh, 50px);
+    margin: 10px;
+}
+
+.project-body {
+    font-size: clamp(20px, 3vh, 25px);
+    margin: 20px;
+}

@@ -15,9 +15,15 @@
 <body>
     <div class="title-container">
         <div class="title-text-container">
-            <h1 class="text headers title-name animation">
-                CARA MA
-            </h1>
+            <div class="hello-name-container">
+                <h2 class="text headers title-hello animation">
+                    Hello there! I'm
+                </h2>
+                <h1 class="text headers title-name animation">
+                    CARA MA
+                </h1>
+            </div>
+
             <p class="text body-text title-body animation">
                 I'm an aspiring software engineer currently pursuing a Masters in Computer Science at UPenn. 
                 I love coding, taking on challenges, and designing software to solve the problems I come across in life.
@@ -33,16 +39,24 @@
             PROJECTS
         </h1>
         <div class="project-item-container">
-            <h3 class="text headers project-title">
-                Twitch Tracker Discord Bot
-            </h3>
-            <p class="text body-text project-body">
-                Developed a Discord bot running on AWS that tracks Twitch streams based on user preferences and used a linear regression algorithm 
-                to predict and notify users of the optimal streaming times, increasing viewership by up to 30%. 
-            </p>
-            <p class="text body-text project-body">
-                Utilized Postgres, NumPy, Docker, Kubernetes, AWS ECR/EC2, Twitch and Discord RESTful APIs. 
-            </p>
+                <img class="project-pic" src="twitch.svg" alt="Twitch Logo">
+                <div class="project-item-text-container">
+                    <h3 class="text headers project-title">
+                        Twitch Tracker Discord Bot
+                    </h3>
+                    <p class="text body-text project-body">
+                        A Discord bot running on AWS that tracks Twitch streams based on user preferences.
+                        Used a linear regression algorithm 
+                        to predict and notify users of the optimal streaming times, increasing viewership by up to 30%. 
+                    </p>
+                    <p class="text body-text project-body">
+                        Utilized Postgres, NumPy, Docker, Kubernetes, AWS ECR/EC2, Twitch and Discord RESTful APIs. 
+                    </p>
+                    <a href=”https://github.com/carateoong/PublicTwitchTracker” target=”_blank”>
+                        <button class="github-btn">Github</button>
+                    </a>
+                </div>
+           
         </div>
 
     </div>

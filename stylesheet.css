@@ -98,14 +98,14 @@ body {
 }
 
 .project-title {
-    font-size: clamp(20px, 8vh, 40px);
+    font-size: clamp(15px, 5vh, 30px);
     margin-block-start: 5px;
     margin-left: 20px;
     margin-bottom: 5px;
 }
 
 .project-body {
-    font-size: clamp(15px, 3vh, 23px);
+    font-size: clamp(8px, 3vh, 18px);
     margin: 10px;
     margin-left: 20px;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .project-pic {
-    height: 220px;
+    height: 150px;
     width: auto;
     margin: 15px;
 }

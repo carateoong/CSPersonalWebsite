@@ -1,6 +1,6 @@
 body {
     /*background-color: #374B47;*/
-    background-color: #111827;
+    background-color: #030712;
     margin: 0;
 }
 
@@ -75,12 +75,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #111827;
     padding-bottom: 100px;
+    gap: 50px;
 }
 
 .projects-header {
     font-size: clamp(100px, 10vh, 150px);
+    margin-bottom: 10px;
 }
 
 .project-item-container {
@@ -88,23 +90,23 @@ body {
     padding: 20px;
     border: solid white 1px;
     width: 75%;
-    background-color: #374151;
-    transition: ease-in-out 1s;
+    background-color: #1F2937;
+    transition: ease-in-out 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .project-title {
-    font-size: clamp(30px, 10vh, 50px);
-    margin-block-start: 10px;
+    font-size: clamp(20px, 8vh, 40px);
+    margin-block-start: 5px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .project-body {
-    font-size: clamp(20px, 3vh, 25px);
-    margin: 15px;
+    font-size: clamp(15px, 3vh, 23px);
+    margin: 10px;
     margin-left: 20px;
 }
 
@@ -113,7 +115,7 @@ body {
 }
 
 .project-pic {
-    height: 250px;
+    height: 220px;
     width: auto;
     margin: 15px;
 }
@@ -124,10 +126,20 @@ body {
     font-size: clamp(20px, 3vh, 25px);
     width: 20%;
     margin-left: 20px;
+    margin-top: 5px;
     min-width: 70px;
+}
+
+.github-btn:hover{
+    cursor: pointer;
 }
 
 .project-item-text-container {
     display: flex;
     flex-direction: column;
+}
+
+.circle-photo {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
 }
